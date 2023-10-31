@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/laptop.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "A laptop on a desk with a plant and notebook";
 
 /**
  * Project list
@@ -31,22 +31,22 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Sortliser",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "An animated visualization of sorting algorithms.",
+    url: "sortliser.netlify.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Hangman Game",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A simple hangman game made with python and pygame. Includes a GUI and a word bank of 1000+ words.",
+    url: "https://github.com/ShaiviAgarwal2/Hangman",
   },
   {
-    title: "My Resume Site",
+    title: "My Resume",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "My resume in PDF format.",
+    url: "https://drive.google.com/file/d/17cQCJikyPkUpnXOYbr6g-xon4k5XxvYZ/view?usp=sharing",
   },
   {
     title: "GitHub Codespaces and github.dev",
